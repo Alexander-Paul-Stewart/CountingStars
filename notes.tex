@@ -1,0 +1,53 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+% Page layout
+\geometry{letterpaper, margin=1in}
+
+% Theorem environments
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{proposition}[theorem]{Proposition}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+% Title and author
+\title{Title of the Paper}
+\author{Author Name}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This is the abstract of the paper. It provides a brief summary of the content.
+\end{abstract}
+
+\section{Introduction}
+The introduction section goes here.
+
+\section{Main Results}
+\subsection{Theorem and Proof}
+\begin{theorem}
+Statement of the theorem.
+\end{theorem}
+
+\begin{proof}
+Proof of the theorem.
+\end{proof}
+
+\section{Conclusion}
+The conclusion section goes here.
+
+\begin{thebibliography}{9}
+\bibitem{example} Author, \textit{Title of the Book}, Publisher, Year.
+\end{thebibliography}
+
+\end{document}
